@@ -1,0 +1,42 @@
+﻿/****** Object:  Table [import].[Tb_TradeDone]    Committed by VersionSQL https://www.versionsql.com ******/
+
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [import].[Tb_TradeDone](
+	[MessageCode] [varchar](50) NULL,
+	[SeqNo] [varchar](50) NULL,
+	[CompanyId] [varchar](50) NULL,
+	[BranchId] [varchar](50) NULL,
+	[AcctNo] [varchar](50) NULL,
+	[AccountSubCode] [varchar](50) NULL,
+	[Channel] [varchar](50) NULL,
+	[BranchId1] [varchar](50) NULL,
+	[TerminalId] [varchar](50) NULL,
+	[TradeOrderNo] [varchar](50) NULL,
+	[TransactionDate] [varchar](50) NULL,
+	[TradeOrderSerialNo] [varchar](50) NULL,
+	[BursaStockCode] [varchar](50) NULL,
+	[BasisCode] [varchar](50) NULL,
+	[TradeType] [varchar](50) NULL,
+	[TransQty] [varchar](50) NULL,
+	[OrderType] [varchar](50) NULL,
+	[TradePrice] [varchar](50) NULL,
+	[TimeMatched] [varchar](50) NULL,
+	[CounterBrokerID] [varchar](50) NULL,
+	[CDSNo] [varchar](50) NULL,
+	[RecordStatusforEO] [varchar](50) NULL,
+	[RecordVersionforEO] [varchar](50) NULL,
+	[PGMLSTUPD] [varchar](50) NULL,
+	[TriggerAct] [varchar](50) NULL,
+	[MarketCode] [varchar](50) NULL,
+	[ProductCode] [varchar](50) NULL,
+	[BrokerCode] [varchar](255) NULL,
+	[DealerCode] [varchar](255) NULL,
+	[InternetInd] [varchar](255) NULL,
+	[UserCreated] [varchar](50) NULL,
+	[DateCreated] [varchar](50) NULL,
+	[TimeCreated] [varchar](50) NULL,
+	[UserUpdated] [varchar](50) NULL,
+	[DateUpdated] [varchar](50) NULL,
+	[TimeUpdated] [varchar](50) NULL
+) ON [PRIMARY]

@@ -1,0 +1,38 @@
+﻿/****** Object:  Table [import].[Tb_Account_BFE_Limit]    Committed by VersionSQL https://www.versionsql.com ******/
+
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [import].[Tb_Account_BFE_Limit](
+	[COMPANYID] [varchar](50) NULL,
+	[BRANCHID] [varchar](50) NULL,
+	[EAFID] [varchar](50) NULL,
+	[ACCTNO] [varchar](50) NULL,
+	[ACCTSBNO] [varchar](50) NULL,
+	[MRKTCD] [varchar](50) NULL,
+	[BFEFRMLCD] [varchar](50) NULL,
+	[EXLMPER] [varchar](50) NULL,
+	[CHKLIMIT] [varchar](50) NULL,
+	[CLRPRVORD] [varchar](50) NULL,
+	[BFEDLRID] [varchar](50) NULL,
+	[BFERDLRID] [varchar](50) NULL,
+	[BFERSGNST] [varchar](50) NULL,
+	[ACCESSSR] [varchar](50) NULL,
+	[BUYSR] [varchar](50) NULL,
+	[SELLSR] [varchar](50) NULL,
+	[SUSPDREASN] [varchar](50) NULL,
+	[REMARK1] [varchar](50) NULL,
+	[REMARK2] [varchar](50) NULL,
+	[TRDLIMIT] [varchar](50) NULL,
+	[DLYBUYLIM] [varchar](50) NULL,
+	[DLYSELLLIM] [varchar](50) NULL,
+	[DLYNETLIM] [varchar](50) NULL,
+	[DLYTOTLIM] [varchar](50) NULL,
+	[BUYOS] [varchar](50) NULL,
+	[SELLOS] [varchar](50) NULL,
+	[NETOS] [varchar](50) NULL,
+	[TOTALOS] [varchar](50) NULL,
+	[MAXBUYLIM] [varchar](50) NULL,
+	[MAXSELLLIM] [varchar](50) NULL,
+	[MAXNETLIM] [varchar](50) NULL,
+	[MAXTOTLIM] [varchar](50) NULL
+) ON [PRIMARY]

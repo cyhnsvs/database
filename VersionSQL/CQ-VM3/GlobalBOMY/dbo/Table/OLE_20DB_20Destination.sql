@@ -1,0 +1,40 @@
+﻿/****** Object:  Table [dbo].[OLE DB Destination]    Committed by VersionSQL https://www.versionsql.com ******/
+
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [dbo].[OLE DB Destination](
+	["S-Exchange"] [varchar](50) NULL,
+	["Code*"] [varchar](50) NULL,
+	["Stock*"] [varchar](50) NULL,
+	["Stock Long Name*"] [varchar](50) NULL,
+	["ISIN*"] [varchar](50) NULL,
+	["Listed on"] [varchar](50) NULL,
+	["Sector"] [varchar](50) NULL,
+	["Member of Indices"] [varchar](50) NULL,
+	["S-Issued*"] [varchar](50) NULL,
+	["V-S"] [varchar](50) NULL,
+	["Delivery"] [varchar](50) NULL,
+	["Cur"] [varchar](50) NULL,
+	["IDSS"] [varchar](50) NULL,
+	["PDT"] [varchar](50) NULL,
+	["RSS"] [varchar](50) NULL,
+	["PSS"] [varchar](50) NULL,
+	["Prv Close*"] [varchar](50) NULL,
+	["High"] [varchar](50) NULL,
+	["Low"] [varchar](50) NULL,
+	["Last*"] [varchar](50) NULL,
+	["Chg*"] [varchar](50) NULL,
+	["Vol*"] [varchar](50) NULL,
+	["VWAP"] [varchar](50) NULL,
+	["Status"] [varchar](50) NULL,
+	["Ent"] [varchar](50) NULL,
+	["Conversion Method"] [varchar](50) NULL,
+	["Conversion Period"] [varchar](50) NULL,
+	["M-Day"] [varchar](50) NULL,
+	["Maturity*"] [varchar](50) NULL,
+	["Ex-P"] [varchar](50) NULL,
+	["Gear*"] [varchar](50) NULL,
+	["Premium*"] [varchar](50) NULL,
+	["Remarks"] [varchar](50) NULL,
+	["M-Last"] [varchar](50) NULL
+) ON [PRIMARY]

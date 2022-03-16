@@ -1,0 +1,42 @@
+﻿/****** Object:  Table [import].[Tb_AccountMargin]    Committed by VersionSQL https://www.versionsql.com ******/
+
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [import].[Tb_AccountMargin](
+	[CompanyID] [varchar](50) NULL,
+	[BranchID] [varchar](50) NULL,
+	[EAFID] [varchar](50) NULL,
+	[AccountNumber] [varchar](50) NULL,
+	[AccountNumberSubAcctNo] [varchar](50) NULL,
+	[MarginCode] [varchar](50) NULL,
+	[CommencementDate] [varchar](50) NULL,
+	[TenorExpiryDate] [varchar](50) NULL,
+	[LetterOfOfferDate] [varchar](50) NULL,
+	[FacilityAgreementDate] [varchar](50) NULL,
+	[MortgageAgreementDate] [varchar](50) NULL,
+	[PowerOfAtorneyDate] [varchar](50) NULL,
+	[ApprovedLimit] [varchar](50) NULL,
+	[SetAsideLimit] [varchar](50) NULL,
+	[ApprovedMargin] [varchar](50) NULL,
+	[CallTolerance] [varchar](50) NULL,
+	[ApprovedRSV] [varchar](50) NULL,
+	[PriceCapMOF] [varchar](50) NULL,
+	[MarginCallInterval] [varchar](50) NULL,
+	[AuthorizedRep] [varchar](50) NULL,
+	[CurrentMargin] [varchar](50) NULL,
+	[CurrentRSV] [varchar](50) NULL,
+	[CommitmentFeeCode] [varchar](50) NULL,
+	[RolloverCode] [varchar](50) NULL,
+	[RolloverFeeRate] [varchar](50) NULL,
+	[DateJoined] [varchar](50) NULL,
+	[MarginInterestCdDr] [varchar](50) NULL,
+	[MarginInterestCdCr] [varchar](50) NULL,
+	[FundCodeCost] [varchar](50) NULL,
+	[FacilityRenewalFeeCd] [varchar](50) NULL,
+	[IntroducerIndicatorInternal] [varchar](50) NULL,
+	[IntroducerCode] [varchar](50) NULL,
+	[IncomeSharingFeeCode] [varchar](50) NULL,
+	[DateJoined1] [varchar](50) NULL,
+	[BrokerageSharingFeeCode] [varchar](100) NULL,
+	[AvgOutstandingAmount] [varchar](50) NULL
+) ON [PRIMARY]

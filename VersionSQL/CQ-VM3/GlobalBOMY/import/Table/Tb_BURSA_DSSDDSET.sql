@@ -1,0 +1,30 @@
+﻿/****** Object:  Table [import].[Tb_BURSA_DSSDDSET]    Committed by VersionSQL https://www.versionsql.com ******/
+
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [import].[Tb_BURSA_DSSDDSET](
+	[RecordType] [varchar](1) NULL,
+	[SellerBroker] [varchar](3) NULL,
+	[SellerBranch] [varchar](3) NULL,
+	[SellerClientAcct] [varchar](9) NULL,
+	[SellerTerminalId] [varchar](3) NULL,
+	[SellerOrderNo] [varchar](8) NULL,
+	[TRSDate] [varchar](8) NULL,
+	[TRSNumber] [varchar](8) NULL,
+	[StockCode] [varchar](6) NULL,
+	[LotCode] [varchar](1) NULL,
+	[BasicCode] [varchar](1) NULL,
+	[TradedPrice] [varchar](6) NULL,
+	[TradedQty] [varchar](9) NULL,
+	[BuyerNo] [varchar](3) NULL,
+	[BuyerBranch] [varchar](3) NULL,
+	[BuyerClientAcct] [varchar](9) NULL,
+	[BuyerTerminalId] [varchar](3) NULL,
+	[BuyerOrderNo] [varchar](8) NULL,
+	[StatusCode] [varchar](1) NULL,
+	[Filler] [varchar](6) NULL,
+	[Filler1] [varchar](8) NULL,
+	[Filler2] [varchar](23) NULL,
+	[FileName] [varchar](100) NULL,
+	[CreatedDate] [datetime] NULL
+) ON [PRIMARY]

@@ -1,0 +1,42 @@
+﻿/****** Object:  Table [import].[Tb_Dealer_BFE_User]    Committed by VersionSQL https://www.versionsql.com ******/
+
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [import].[Tb_Dealer_BFE_User](
+	[BFEUSRID] [varchar](50) NULL,
+	[BFESHORTNM] [varchar](50) NULL,
+	[BFEUSRNM] [varchar](50) NULL,
+	[RADDR1] [varchar](50) NULL,
+	[RADDR2] [varchar](50) NULL,
+	[RADDR3] [varchar](50) NULL,
+	[RADDR4] [varchar](50) NULL,
+	[IDTYPECD] [varchar](50) NULL,
+	[IDNUMBER] [varchar](50) NULL,
+	[IDTYPECD1] [varchar](50) NULL,
+	[IDNUMBER1] [varchar](50) NULL,
+	[BFELICENSE] [varchar](50) NULL,
+	[LICDATESTR] [varchar](50) NULL,
+	[LICDATEEND] [varchar](50) NULL,
+	[BFEUSRTYP] [varchar](50) NULL,
+	[SHORTSELL] [varchar](50) NULL,
+	[DTSUSPEND] [varchar](50) NULL,
+	[USRPASSWD] [varchar](50) NULL,
+	[DTPSWDUPD] [varchar](50) NULL,
+	[USERSTATUS] [varchar](50) NULL,
+	[USRCREATED] [varchar](50) NULL,
+	[DTCREATED] [varchar](50) NULL,
+	[TMCREATED] [varchar](50) NULL,
+	[USRUPDATED] [varchar](50) NULL,
+	[DTUPDATED] [varchar](50) NULL,
+	[TMUPDATED] [varchar](50) NULL,
+	[RCDSTAT] [varchar](50) NULL,
+	[RCDVERSION] [varchar](50) NULL,
+	[PGMLSTUPD] [varchar](50) NULL,
+	[TRIGGERACT] [varchar](50) NULL,
+	[BROKERCD] [varchar](50) NULL,
+	[DLREAFID] [varchar](50) NULL,
+	[DEALERCD] [varchar](50) NULL,
+	[COMPANYID] [varchar](50) NULL,
+	[BRANCHID] [varchar](50) NULL,
+	[BFESERVER] [varchar](50) NULL
+) ON [PRIMARY]

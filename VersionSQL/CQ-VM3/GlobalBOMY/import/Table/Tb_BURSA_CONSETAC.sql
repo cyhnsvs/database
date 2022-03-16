@@ -1,0 +1,33 @@
+﻿/****** Object:  Table [import].[Tb_BURSA_CONSETAC]    Committed by VersionSQL https://www.versionsql.com ******/
+
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [import].[Tb_BURSA_CONSETAC](
+	[Membercompanynumber] [char](3) NULL,
+	[NonCDSScripscollected] [char](13) NULL,
+	[NonCDSScripsdelivered] [char](13) NULL,
+	[NonCDSAutoBuyInToSCANS] [char](13) NULL,
+	[NonCDSAutoBuyInFromSCANS] [char](13) NULL,
+	[NonCDSManualBuyInToSCANS] [char](13) NULL,
+	[NonCDSManualBuyInFromSCANS] [char](13) NULL,
+	[NonCDSPositionNettedToSCANS] [char](13) NULL,
+	[NonCDSPositionNettedFromSCANS] [char](13) NULL,
+	[NonCDSAutoDeductionToSCANS] [char](13) NULL,
+	[NonCDSAutoDeductionFromSCANS] [char](13) NULL,
+	[NonCDSBuyInCommissionFromSCANS] [char](13) NULL,
+	[CDSScriptsCredited] [char](13) NULL,
+	[CDSScriptsDebited] [char](13) NULL,
+	[CDSAutoBuyInToSCANS] [char](13) NULL,
+	[CDSAutoBuyInFromSCANS] [char](13) NULL,
+	[CDSManualBuyInToSCANS] [char](13) NULL,
+	[CDSManualBuyInFromSCANS] [char](13) NULL,
+	[CDSAutoDeductionToSCANS] [char](13) NULL,
+	[CDSAutoDeductionFromSCANS] [char](13) NULL,
+	[MonthlyClearingFee] [char](13) NULL,
+	[MemberCompanyBranch] [char](3) NULL,
+	[CDSBuyInCommission] [char](13) NULL,
+	[CurrencyTraded] [char](3) NULL,
+	[Filler] [char](18) NULL,
+	[FileName] [varchar](100) NULL,
+	[CreatedDate] [datetime] NULL
+) ON [PRIMARY]

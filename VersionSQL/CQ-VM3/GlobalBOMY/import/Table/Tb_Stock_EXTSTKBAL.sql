@@ -1,0 +1,39 @@
+﻿/****** Object:  Table [import].[Tb_Stock_EXTSTKBAL]    Committed by VersionSQL https://www.versionsql.com ******/
+
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [import].[Tb_Stock_EXTSTKBAL](
+	[EXTBALKEY] [varchar](50) NULL,
+	[MCDTYPE] [varchar](50) NULL,
+	[MCDCDSNM] [varchar](50) NULL,
+	[MCDCOMPID] [varchar](50) NULL,
+	[MCDBRNID] [varchar](50) NULL,
+	[MCDEAFID] [varchar](50) NULL,
+	[MCDCLNACCT] [varchar](50) NULL,
+	[MCDCLTSBNO] [varchar](50) NULL,
+	[MCDSTK] [varchar](50) NULL,
+	[MCDMRKTCD] [varchar](50) NULL,
+	[MCDPRODCD] [varchar](50) NULL,
+	[MCDFREEBAL] [varchar](50) NULL,
+	[MCDMARKBAL] [varchar](50) NULL,
+	[MCDUCLRBAL] [varchar](50) NULL,
+	[MCDSUSPBAL] [varchar](50) NULL,
+	[MCDPAYBAL] [varchar](50) NULL,
+	[MCDRECBAL] [varchar](50) NULL,
+	[MCDBUYBAL] [varchar](50) NULL,
+	[CUSTKEY] [varchar](50) NULL,
+	[ACCTTYPECD] [varchar](50) NULL,
+	[PARACGRPCD] [varchar](50) NULL,
+	[ACCTGRPCD] [varchar](50) NULL,
+	[NOMININD] [varchar](50) NULL,
+	[USRCREATED] [varchar](50) NULL,
+	[DTCREATED] [varchar](50) NULL,
+	[TMCREATED] [varchar](50) NULL,
+	[USRUPDATED] [varchar](50) NULL,
+	[DTUPDATED] [varchar](50) NULL,
+	[TMUPDATED] [varchar](50) NULL,
+	[RCDSTAT] [varchar](50) NULL,
+	[RCDVERSION] [varchar](50) NULL,
+	[PGMLSTUPD] [varchar](50) NULL,
+	[TRIGGERACT] [varchar](50) NULL
+) ON [PRIMARY]

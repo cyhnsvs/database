@@ -1,0 +1,85 @@
+﻿/****** Object:  Procedure [export].[USP_FRA_IFACGROUP]    Committed by VersionSQL https://www.versionsql.com ******/
+
+CREATE PROCEDURE [export].[USP_FRA_IFACGROUP]
+(
+	@idteProcessDate DATETIME
+)
+AS
+/*
+ACCOUNT DEALER DETAILS
+EXEC [export].[USP_FRA_IFACGROUP] '2020-06-01'
+*/
+BEGIN
+	
+	-- CASH BALANCE
+	CREATE TABLE #Detail
+	(
+		 ACCTGRPCD		CHAR(5)
+		,PRTSTMT		CHAR(1)
+		,DESCRIPTN		CHAR(30)
+		,USRCREATED		CHAR(10)
+		,DTCREATED		CHAR(10)
+		,TMCREATED		CHAR(8)
+		,USRUPDATED		CHAR(10)
+		,DTUPDATED		CHAR(10)
+		,TMUPDATED		CHAR(8)
+		,RCDSTAT		CHAR(1)
+		,RCDVERSION		CHAR(3)
+		,PGMLSTUPD		CHAR(10)
+		,TRIGGERACT		CHAR(1)
+		,PARACGRPCD		CHAR(5)
+		,AUTOPAYAPP		CHAR(1)
+		,AUTORECAPP		CHAR(1)
+		,ALWODDAVG		CHAR(1)
+
+	)
+
+	INSERT INTO #Detail
+	(
+		  ACCTGRPCD	
+		 ,PRTSTMT	
+		 ,DESCRIPTN	
+		 ,USRCREATED	
+		 ,DTCREATED	
+		 ,TMCREATED	
+		 ,USRUPDATED	
+		 ,DTUPDATED	
+		 ,TMUPDATED	
+		 ,RCDSTAT	
+		 ,RCDVERSION	
+		 ,PGMLSTUPD	
+		 ,TRIGGERACT	
+		 ,PARACGRPCD	
+		 ,AUTOPAYAPP	
+		 ,AUTORECAPP	
+		 ,ALWODDAVG									
+	)
+	SELECT 
+		 ''
+		,''
+		,''
+		,''
+		,''
+		,''
+		,''
+		,''
+		,''
+		,''
+		,''
+		,''
+		,''
+		,''
+		,''
+		,''
+		,''
+
+		
+	-- RESULT SET
+	SELECT 
+		   ACCTGRPCD + PRTSTMT + DESCRIPTN + USRCREATED + DTCREATED + TMCREATED	+ USRUPDATED + DTUPDATED + TMUPDATED + RCDSTAT + RCDVERSION	+ PGMLSTUPD	+ TRIGGERACT	
+		   + PARACGRPCD + AUTOPAYAPP + AUTORECAPP + ALWODDAVG	
+	FROM 
+		#Detail
+
+	DROP TABLE #Detail
+END

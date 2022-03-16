@@ -1,0 +1,42 @@
+﻿/****** Object:  Table [import].[Tb_BTX_YYYYMMDD]    Committed by VersionSQL https://www.versionsql.com ******/
+
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [import].[Tb_BTX_YYYYMMDD](
+	[StockExchange] [varchar](2) NULL,
+	[StockCode] [varchar](10) NULL,
+	[StockName] [varchar](20) NULL,
+	[StockLongName] [nvarchar](max) NULL,
+	[ISIN] [varchar](20) NULL,
+	[ListedOn] [varchar](30) NULL,
+	[Sector] [varchar](50) NULL,
+	[MemberOfIndices] [varchar](100) NULL,
+	[ShareIssued] [nvarchar](max) NULL,
+	[LotSize] [nvarchar](max) NULL,
+	[Delivery] [varchar](8) NULL,
+	[Currency] [varchar](8) NULL,
+	[IDSS] [varchar](15) NULL,
+	[PDT] [varchar](9) NULL,
+	[RSS] [varchar](9) NULL,
+	[PreviousClosingPrice] [varchar](10) NULL,
+	[HighestPrice] [nvarchar](max) NULL,
+	[LowestPrice] [nvarchar](max) NULL,
+	[LastDonePrice] [nvarchar](max) NULL,
+	[PriceChange] [nvarchar](max) NULL,
+	[VolumeTraded] [nvarchar](max) NULL,
+	[VWAP] [nvarchar](max) NULL,
+	[StockStatus] [varchar](50) NULL,
+	[Entitlement] [varchar](10) NULL,
+	[CoversionMethod] [varchar](10) NULL,
+	[ConversionPeriod] [varchar](9) NULL,
+	[DaysToExpire] [nvarchar](max) NULL,
+	[MaturityDate] [nvarchar](max) NULL,
+	[ExercisePrice] [nvarchar](max) NULL,
+	[Gearing] [nvarchar](max) NULL,
+	[Premium] [nvarchar](max) NULL,
+	[Remarks] [varchar](200) NULL,
+	[MotherSharePrice] [nvarchar](max) NULL,
+	[FileName] [varchar](100) NULL,
+	[CreatedDate] [datetime] NULL,
+	[PreviousClose] [varchar](100) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]

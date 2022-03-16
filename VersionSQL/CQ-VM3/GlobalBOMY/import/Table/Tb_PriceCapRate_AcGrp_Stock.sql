@@ -1,0 +1,41 @@
+﻿/****** Object:  Table [import].[Tb_PriceCapRate_AcGrp_Stock]    Committed by VersionSQL https://www.versionsql.com ******/
+
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [import].[Tb_PriceCapRate_AcGrp_Stock](
+	[AccountGroupCode] [varchar](50) NULL,
+	[MarketCode] [varchar](50) NULL,
+	[ProductCode] [varchar](50) NULL,
+	[BusinessArea] [varchar](50) NULL,
+	[ApprovedPriceMOF] [varchar](50) NULL,
+	[CappingbyPercentCeilingCaprate] [varchar](50) NULL,
+	[CappingbyPercentCeilingCeilingCapRM] [varchar](50) NULL,
+	[CappingbyPercentCeilingCeilingCapPlusMinus] [varchar](50) NULL,
+	[CappingbyPercentCeilingNonMarginable] [varchar](50) NULL,
+	[CappingbyPercentifMoreThanMaxCapMaxCap] [varchar](50) NULL,
+	[CappingbyPercentifMoreThanMaxCapMarketPriceMoreThanMaxCap] [varchar](50) NULL,
+	[CappingbyQuantityQuantityCapratePercentofPaidUpcapital] [varchar](50) NULL,
+	[CappingbyQuantityMaxQuantityCapping] [varchar](50) NULL,
+	[NewcappingbyPercentCeilingEffectiveDate] [varchar](50) NULL,
+	[NewcappingbyPercentCeilingApprovedPriceMOF] [varchar](50) NULL,
+	[NewcappingbyPercentCeilingCapRatePercent] [varchar](50) NULL,
+	[NewcappingbyPercentCeilingCeilingCapRM] [varchar](50) NULL,
+	[NewcappingbyPercentCeilingCeilingCapPlusMinus] [varchar](50) NULL,
+	[NewcappingbyPercentCeilingNon-Marginable] [varchar](50) NULL,
+	[NewCappingbyPercentifMaxCapMaxCap] [varchar](50) NULL,
+	[NewCappingbyPercentifMaxCapMarketPriceMoreThanMaxCap] [varchar](50) NULL,
+	[NewCappingbyPercentifMaxCapProcessBreachNotification] [varchar](50) NULL,
+	[NewCappingbyPercentifMaxCapGraceDays] [varchar](50) NULL,
+	[NewCappingByQuantityEffectiveDate] [varchar](50) NULL,
+	[NewCappingByQuantityQuantityCaprate] [varchar](50) NULL,
+	[NewCappingByQuantityMaxQuantityCapping] [varchar](50) NULL,
+	[NewCappingByQuantityProcessBreachNotification] [varchar](50) NULL,
+	[NewCappingByQuantityGraceDays] [varchar](50) NULL,
+	[NewCappingByQuantityNonMarginable] [varchar](50) NULL,
+	[UserCreated] [varchar](50) NULL,
+	[DateCreated] [varchar](50) NULL,
+	[TimeCreated] [varchar](50) NULL,
+	[UserUpdated] [varchar](50) NULL,
+	[DateUpdated] [varchar](50) NULL,
+	[TimeUpdated] [varchar](50) NULL
+) ON [PRIMARY]
